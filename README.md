@@ -16,7 +16,7 @@ A simple and responsive recipe search application built with **Next.js (App Rout
 - Spoonacular
 - TypeScript
 - ESLint & Prettier
-- 
+ 
 ## 💻 Required Software
 | 🛠️ Tool     | 🔗 Download Links                                                                                                                                                             | 💬 Notes                              |
 | :---------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------ |
