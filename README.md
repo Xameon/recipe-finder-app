@@ -13,7 +13,7 @@ A simple and responsive recipe search application built with **Next.js (App Rout
 ## 🛠️ Technologies
 - Next.js 15 (App Router)
 - Tailwind CSS
-- Spoonacular
+- Spoonacular API
 - TypeScript
 - ESLint & Prettier
  
