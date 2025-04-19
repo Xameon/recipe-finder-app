@@ -1,6 +1,7 @@
-import { RecipesSearchParams } from '@/types/recipes.types';
-import { buildSearchParams } from './buildSearchParams';
 import { spoonacularApiKey, spoonacularApiUrl } from '@/constants';
+import { RecipesSearchParams } from '@/types/recipes.types';
+
+import { buildSearchParams } from './buildSearchParams';
 
 export const fetchRecipes = async (params: RecipesSearchParams) => {
   const searchParams = buildSearchParams(params);

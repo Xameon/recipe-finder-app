@@ -1,6 +1,7 @@
+import { Suspense } from 'react';
+
 import { Loader } from '@/components/Loader';
 import { RecipeDetails } from '@/components/RecipeDetails';
-import { Suspense } from 'react';
 
 export default async function RecipeDetailsPage({
   params: paramsAsync,

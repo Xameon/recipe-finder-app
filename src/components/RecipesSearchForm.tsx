@@ -1,8 +1,9 @@
 'use client';
 
-import { cuisines } from '@/constants/recipes.constants';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+
+import { cuisines } from '@/constants/recipes.constants';
 
 export function RecipesSearchForm() {
   // ..................................................
@@ -85,7 +86,7 @@ export function RecipesSearchForm() {
             <option value='' disabled>
               Select Cuisine
             </option>
-            {cuisines.map((cuisine) => (
+            {cuisines.map(cuisine => (
               <option key={cuisine} value={cuisine}>
                 {cuisine}
               </option>

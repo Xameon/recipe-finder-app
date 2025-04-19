@@ -1,6 +1,7 @@
+import { Suspense } from 'react';
+
 import { Loader } from '@/components/Loader';
 import { RecipesList } from '@/components/RecipesList';
-import { Suspense } from 'react';
 
 type SearchParams = {
   searchParams: {

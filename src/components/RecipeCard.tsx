@@ -1,8 +1,9 @@
 'use client';
 
-import { Recipe } from '@/types/recipes.types';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+
+import { Recipe } from '@/types/recipes.types';
 
 type RecipeCardProps = {
   recipe: Recipe;

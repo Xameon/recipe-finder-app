@@ -15,6 +15,7 @@ export async function RecipesList({ ...props }: RecipesListProps) {
     const data = await fetchRecipes(props);
     recipes = data.results;
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.error('Error fetching recipes:', error);
   }
 
@@ -24,7 +25,7 @@ export async function RecipesList({ ...props }: RecipesListProps) {
         <h1 className='text-2xl font-bold mb-4'>Recipes</h1>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
           {recipes.length > 0 ? (
-            recipes.map((recipe) => (
+            recipes.map(recipe => (
               <RecipeCard key={recipe.id} recipe={recipe} />
             ))
           ) : (

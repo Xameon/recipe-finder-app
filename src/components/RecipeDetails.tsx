@@ -1,6 +1,7 @@
+import Image from 'next/image';
+
 import { fetchRecipeDetails } from '@/lib/fetchRecipeDetails';
 import { type RecipeDetails } from '@/types/recipes.types';
-import Image from 'next/image';
 
 export async function RecipeDetails({ id }: { id: string }) {
   let recipe: RecipeDetails | null = null;
