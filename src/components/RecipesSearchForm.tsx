@@ -1,19 +1,8 @@
 'use client';
 
+import { cuisines } from '@/constants/recipes.constants';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-
-const cuisines = [
-  'Asian',
-  'American',
-  'European',
-  'Chinese',
-  'French',
-  'Japanese',
-  'Korean',
-  'Mexican',
-  'Vietnamese',
-];
 
 export function RecipesSearchForm() {
   // ..................................................
